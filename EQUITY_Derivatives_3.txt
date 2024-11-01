@@ -1,0 +1,223 @@
+Chapter 3 : Introduction to Forward and Future Contract 
+
+🌟Note (are the concept that are used by traders) : 
+
+        - Opening price is descided when the exchange start collecting oder from 9:00 to 9:15 called pre market window and 7
+          mins before markets opening
+
+        - Closing Price is been descided as = Total Traded Volume / Total Volume  
+
+        - Future Price = Spot Price + Cost of Carry
+                       = Spot Price * [[1+rf*(x/365)] -d]
+                       = Spot Price * (1 + R) ^ T                       
+                        
+                rf = risk free rate
+                x = no of days to expriy
+                d = dividend paid
+                T = holding period of the asset (x/12)
+                R = Cost of carry %
+
+        - Efficent market : means where the buyers / sellers have the sufficent knowledge about the market and 
+                            the market has 100% Liquidity where 
+                                Acutal Price = Fair Price 
+
+        - Actual Market   : where the market has patial liquidity and has exist of Transaction cost which helps arbiterage
+                            Actual Price != Fair Price 
+
+        - Fair Value (calculated) of Future it is calculated one by traders
+
+        - Acutal Price of Future it is market price. 
+
+🧑‍💻🧑‍💻 
+3.1 Forwards 
+
+    Bilateral Contract between two parties
+    Terms freezed on contract date
+    Both parties to discharge obligation (means the terms should be followed by two parties)
+
+
+    Risk : 
+        Counterparty : means one of the party should'nt follow the contract terms 
+        Liquidity    : before the contract exprie date you cant get the money for the one of the parties.
+
+
+🧑‍💻🧑‍💻 3.2.1 
+Future 
+    Forward + Standarization + Exchange Trade
+
+    Featuers of Future Contarct :
+        - Contract is done between two parties through exchange
+        - centralized trading platform
+        - Price Discovery by Market
+        - Margin Payable - by both parties
+        - Quailty and Quantity - Descided by Today
+
+
+    Limitation of Future :
+        - Lack of Flexibility (The Quantity of lot cant be descided by buyer or seller)
+        - Higher Administrative Cost
+
+
+    
+🧑‍💻 3.2.2 
+Contract Specification - Future  
+    - Instrument Type     : Means in which category the contarct lies commodity , index or currency
+    - Underlying asset    : Means lies in which specific asset oil , gold , stock , grains etc.
+    - Expriy date         : Means the date you have sell or buy (on every month of last thursday) after that you take that stocks 
+                            on that amount 
+    - Open/High/low/Close : Open means on what price the stock is started
+                            High means on today the stock price gone how much higher then the current
+                            Low  means on today the stock price gone how much lower then the current
+                            Close means pervious day at what price the stock is been closed after the market (3:30)
+    - No Contract Traded  : Total no of volume / Contract Quantity Size
+    - Turnover            : Total no of volume * price
+    - Contract Cycle      : Generally in Indian Market the Contract Cycle is 3 Month  
+    - Tick Size           : Minimum orice movement allowed for trading Instrument.    
+                            (190.45 -> 0.45 is tick size) this is descided by exchange
+    - Daily Settle Price  :  
+    - Trading Hours       : 9:15 - 3:30
+
+
+🧑‍💻3.2.3 
+Important Terminolgies :
+
+    Basis          : Difference between spot and future price    
+            Greater the basis Greater the expriy of contract period
+
+    Cost of Carry  : The realtionship between the future and spot.
+        Ex: If i buy the share of ITC at spot of 494 at Quantity 1600   and i havew hold that stocks for 2 month 
+                494 * 1600 = 790,000     and bank loan is at 12% , intrest value of 2 month : 15800 and we have store that stocks 
+                sp depository cost is 400 so    total cost of carry = 790,000 + 15800 + 400 = 806200 / 1600 = 504 
+
+                So diffrence is basis is 504 - 494 = 10 Ruppes         
+
+    Margin account  : A Margin account is allow to investor to burrow the fund from the collateral securties(stocks , funds , bonds ,etc)
+    
+    Intial margin   : The minimum amount to buy/sell future contract.
+    
+    Mark to Margin  : MTM adjusting the margin account daily to reflect the profit / losses on the account.
+
+    IV              : (Implied Volatilty) Means how comapny stock price will go [up / down] Ex : 23.3 means stock will go 23.3% up/down  
+
+    Calendar spread : is technique that is combination of Long and Short Postion means if i buy the dabur Aug(+) and 
+                      sell the dabur Sep(-) Future then loss is 0 and profit is minimal as compaer to amount to be invested
+
+
+🧑‍💻3.2.4 
+Postions in Derivatives Market :
+    Long Postion  : The trader has buy in the future contract  
+    Short Postion : The trader has sell in the future contract
+    Open Postion  : The trader has buy/sell in the future contract and you havent Set
+    Close Postion : The trader has buy/sell in the future contract has finilized the trade.  
+    Naked Postion : Only Buy/Sell a Future 
+                        Profit -> Unlimited
+                        Loss   -> Unlimited
+
+                    For this risk of Unlimited losses you have to do hedgeing with Loss is limited
+
+
+     
+ 
+
+                    
+🧑‍💻 3.2.5
+   Futuers Pricing Model : (means how the price is been calculating)
+
+    A) Cost of carry Model 
+
+        Synthetic Price of Future in Gold 
+            Price of spot = 62130
+            Borrows at price 1% = 621.30
+            Locker Price = 20 Ruppes per 10 gram
+
+            Total Cost  = 62771.30   (Synthetic price)
+
+            But the acutal future price of 63000
+            and the miss Pricing we get the arbiterage oppurtunity 
+                💻 Cash and Carry arbiterage is 
+
+                    - Sell the Gold Future @ 63000
+                    - Borrow the money and buy the gold 10gm at spot price @62130
+                    - Hold for 1 Month and pay cost of carry@641.30 
+                    - Effective price is 62771.30
+                    - Profit 63000-62771.30 = 228.70
+                            No Risk + No Captial
+
+
+
+    
+        Fair Value of Future  >   Acutal (calculated) Price of Future
+
+        Yes : (Reverse cash and Carry arbiterage)
+            - Buy Future
+            - Borrow the Gold
+            - Sell Gold
+            - Make the FD of money(Gold)
+            - Take the Gold delivery of Future Contract
+            - Return the Gold
+              
+        No : (Cash and Carry arbiterage)
+            - Sell The Future
+            - Borrow the money
+            - Buy the Gold
+            - Keep the Gold in the locker
+            - Make delivery of the gold 
+            - Return the Borrowed money
+
+
+        @Cost of Carry (means the storeing the commodity)
+                can we reduce the cost of carry by any chances and the answer is Yes 
+
+                a. Convenience Yield :
+                    Ex : Dividend Recived
+                         Intrest Recived
+
+                    Formula : Fair Value of Future = Spot Price + Cost of Carry - Inflows - Convenience Yield
+                              F = S * (1 + RF - Q) ^ T
+                              
+                              whereas Q = Inflows + Convenience Yield
+
+
+        Assumption :
+        - Abundant Availablity
+        - No seasonal Impact in demand and supply
+        - Ease of Maintaince
+        - Short selling is Availablity
+        - No Transaction cost / Taxes / Margin Requriment
+
+
+    B) Expections Model 
+        Difference of Spot and Future Price 
+            -> Due to Demand and Supply of Future
+            -> Expections of Traders of future price of underlying asset 
+
+        Various Lost during Transaction
+            - Margin
+            - Brokreage 
+            - Taxes
+            All the above one is not acutual included in cash and carry model 
+
+        Future Price can Trade either 
+        Permium [F>S] / Discount [F<S] realtive to the spot price of underlying asset . 
+            # F -> Future Price and S -> Spot Price 
+           
+            - Contango [F > S]  -> Permium
+                Market Expects the price of asset to rise in future
+
+            - Backwardation [F < S] -> Discount
+                Market Expects the price of asset to fall in future
+
+            - Expections [F = S]
+                Due to convergence theory on the expriy date 
+                Market Expects the price in future and today will be same                      
+        
+    🧑‍💻 3.2.6 Use of Futuers
+        - Hedgers
+        - Traders / Speculators
+        - Arbiterages 
+
+    🧑‍💻 3.2.7 Risk of Futuers :
+        - Unsystematic Risk -> Can be Avoidable  [reduce by diversification]
+        - Systematic Risk   -> Cant be Avoidable [inflation , climate , war , etc]
+
+

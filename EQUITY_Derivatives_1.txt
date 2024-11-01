@@ -1,0 +1,71 @@
+Chapter 1 : Derivatives
+
+🧑‍💻Basic of Derivatives :
+    It is product or contract which values are depended on underlying asset  
+    Derivatives were not meant to make money , they were to save the money it is hedge finance
+    but after excanghe we deal with cash settlement.  
+
+    Ex : When you are running the airline and major issue is that petrol for planes that it is costly in futuer 
+         so we cant store the oil because it will be costly so the solution is find the man which says the oil price will 
+         go down so make the contract with that person for oil at the price of "100" ruppes with person after 1 years the price of
+         oil is "150" so that person give me 50 ruppes and says go to market and take "100" ruppes oil.  
+
+
+    when the derivative of any commidity suddenly rise to 100% or 200% then it is said gamma burst
+
+
+🧑‍💻Why derivative growing ?
+-> Increase Volatility 
+-> Risk Management
+-> Technology advancemnt
+
+
+🧑‍💻Types of derivative market People
+
+a. OTC - Over the Counter (person/parties  to  person/parties)   Customized - Legal , Illegal  - default risk - Known People with trading
+b. Exchange - NSE , BSE , KSE , etc..   Stadardized - Legal -  NO risk of default - Known People with trading
+
+
+🧑‍💻Types of Derivatives
+
+- Forward
+    Contract between two parties (uncle and father)
+    buy (father) / sell(uncle)
+    certain future date
+    at price fixed today
+
+
+    Note : Both parties are committed to honor the obligation as per contract , irrespective price 
+
+
+- Future
+    Future contract is nothing has done trading in exchange simillar to forward.
+
+
+-Options 
+    When you make the contract with parties but after the contract end month you want to buy that commidity or not
+    it depend upon the buyer party with perimum paid from buyer to seller.
+
+
+-Swaps
+    Swap allows investor to recive the return the security without owning the share of the company.
+
+    Ex : There are 2 parties - papa , uncle they both have taken the loan of 10lakh
+        
+        Papa (10 Lakh , Fixed 9% from hdfc)     ----> 9%                 Uncle (10 Lakh , Float interest from Yes bank)
+        Papa (10 Lakh , Fixed 9% from hdfc)     Float Intrest <---       Uncle (10 Lakh , Float interest from Yes bank)
+
+🧑‍💻Market Participants 
+    Hedgers               : Actually Business Trade and Hedge through derivatives.
+    Traders / Spectulator : They engage in the market to profit from fluctuation in the price of derivatives.
+    Arbitrageurs          : Buying the share from one market (NSE) and sell it another market (BSE) immediatley 
+
+
+🧑‍💻Various Risk in Derivatives Market 
+    Counterparty Risk
+    Price Risk
+    Liquidity Risk 
+    Legal or regulatory Risk
+    Operational Risk
+
+    

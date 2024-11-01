@@ -1,0 +1,136 @@
+4. Chapter : Intro of Options
+
+" Indian Market Only Trade in Europen Option "  
+
+🧑‍💻
+
+🧑‍💻  4.1 What is Option(Inurance) :
+        Option is nothing a contract but not to follow obligation means to follow the contact to buy/sell a stock a specfic price.
+        Ex : TCS Spot = 4220
+             TCS Aug 4400 CE = 15.30        (call Option)
+
+
+             Day 0 Permium Paid = -15.30
+             Day 30 TCS Spot Rate                   (cost of edgening)
+                -> 4500 , so proft = 4500-4400 - 15.30              = 84.70 
+                -> 4100 so you can/cant have to buy that share as per your marzi but loss is still there -15.30 
+
+         Option Key Terms
+            -> Option Permium        : 15.30
+            -> Spot price            : 4220
+            -> Strike/Exercise Price : 4400 
+            -> Open Interset         : Total number of outstanding contract that are active but not traded yet
+            -> Lot Size              : 250 (minimum quantity to buy)
+            -> Contract Size         : 250 * 15.30
+            -> Contract cycle        : 3 months 
+            -> Exprtion date         : Aug (last thursday)
+                                        Stock - last thursday of month (if it is holiday on thursday then pervious day will be)
+                                        Index - Every week
+            -> Tick price            : 0.05 in the price can go up / down
+             
+
+    Terminlogy :
+        Call Option : Buy that option futuers   (CE)
+        Put Option  : Sell that option futuers  (PE)
+    
+
+🧑‍💻  4.2 Types of Options :
+        -> Index Option
+            - NIFITY
+            - SENSEX
+            - BANKNIFTY
+            - FINNIFTY
+
+        -> Stock Option 
+            - Reliance
+            - TCS
+            - HUL
+            - Dabur
+
+        Types Style 
+            - American (CA) : Settle any date before Expriy.
+            - Europen  (CE) : Settle only on Expriy
+
+
+🧑‍💻  4.3 In the types of postions 
+    Opening has two types in option 
+        -> Long on Option  : Buy call option     (-15.30)
+            Here you "want" to buy that stock then you can otherwise the only permium will be paid
+
+        -> Short on Option : Sell call option    (+15.30)
+            Here you "want" to sell that stock then you can otherwise the only permium will be paid
+
+    
+    @ In the money and out of the money 
+        4100 -----   4220   ----- 4400
+                    ( spot )
+                      price
+
+        Ex : 
+        a. We thing that price will go up 
+             - so we lock the price 
+             - buy a call option
+             - " Highest Permium "
+            Excerise Price/Strike Price  <  Spot Price [In the money]
+
+        b. We thing that price will go down
+            - so we lock the price 
+            - buy a call option
+            " Lowest Permium "
+            Excerise Price/Strike Price  >  Spot Price [Out the money]
+
+        c. We think the price will be approxmitly same
+            " Mid Permium "
+            Excerise Price/Strike Price  ~=  Spot Price [At the money]
+
+
+🧑‍💻  4.4 Option Pricing Descision
+        Option Pricing is been descided on several factors :
+            a. Spot Price of underlying asset
+            b. Strike Price of option
+            c. Time to Expiry
+            d. Volatility in asset price 
+            e. Intrest Rate 
+
+        We formalized all this things then we get the Option Greeks
+            - Delta : Change in Premium Price with respect to Spot Price  
+            - Gamma : Rate of change of Delta
+            - Theta : 
+            - Vega  : Change in Volatility
+            - Rho   : Change in Intrest Rate.
+
+        TCS (Call Option) 
+        " Premium is taken becoz to covering risk realetd to time , volatility , interset rate and dividends " 
+        Spot : 4195
+            Futuers Options :
+                Excerise Price   Permium  
+                - 4000 CE        219        --| In the price
+                - 4100 CE        136        --| 
+                - 4200 CE        70         --> At the price
+                - 4300 CE        30         --|
+                - 4400 CE        14         --| Out the price
+
+
+        Call option strike = 4000 => 219 
+        -> 219     --> 200 is Intrinsic value and 19 is Time Value 
+
+        How the price is been descided :
+        Based on time and money diffrence between the Spot and Excerise Price 
+
+        * Ex 1 * 
+        -- Intrinsic Value : spot - excerise  , |4200 - 4000| = 200
+        -- The Time value means addition permium of risk for a time to Expriy  
+           : 19 Ruppes is the time value money / permium
+
+        * Ex 2 * 
+        -- Intrinsic Value : spot - excerise  , |4200 - 4200| = 0
+        -- The Time value means addition permium of risk for a time to Expriy  
+           : 70 Ruppes is the time value money / permium
+
+        * Ex 3 * 
+        -- Intrinsic Value : spot - excerise  , |4200 - 4300| = 0 
+        -- The Time value means addition permium of risk for a time to Expriy  
+           : 30 Ruppes is the time value money / permium
+
+
+        

@@ -1,0 +1,66 @@
+Chapter 2 : Index (indices)
+
+Mcap - Market Captilization
+
+
+🧑‍💻Intro :
+    Statistical indicator to measuer the chnages in market 
+    Ex : Economy , Markets , Sectors
+         Nifity50 , BSE SmallCap , Nifity Pharma
+
+
+🧑‍💻Significance of Index :
+    Indicator of Economy how the market is going on
+    Benchmarking of Portfolio performance
+    "Underlying Asset" in Derivatives
+
+
+🧑‍💻Types of Index (it is done with calcultion)
+    - Mcap Weighted Index
+    - FreeFloat Mcap Weighted Index
+    - Equal Weighted Index
+    - Price Weighted Index
+
+
+🧑‍💻Attribution of Index :
+    - Reflects Market Behavior
+    - Computed by third party 
+    - Free from influence / Maniplution
+    - Professionally maintained
+
+
+🧑‍💻Index Management :
+    -Index Construction -> what are elgible cretera for comapny to be in the index   (factors :Liquidity and Diversification)
+    -Index Maintainance and revision -> 
+
+
+
+Note : Impact Cost & Price Discovery
+    a. Impact Cost     ->  Ex : when you buy the cello comapny share at the cost of 952.55 but in sellers 
+                                top 5 are with qyt is 143
+                                    -> 952.9 (30 qyt) , 953.8 (13 qyt) , 954.05 (64 qyt) , 954.1 (17 qyt) , 954.2 (20 qyt) 
+                                       = Avg price is 954
+
+                                       Impact Cost = (952.55 * 143) - (954 * 143) = 180.85    
+
+
+    b. Price Discovery : Bid - Ask Spread % is greater then the price discovery is bad and vice versa
+                         and in market the traders find the epicenter of that stock 
+    
+
+In the tradeing if price of buyer and seller is equall then will excuted otherwise it will cancel or modify or partial excuetion
+
+Upper Circuit : Means after that value of stock it will not increase (buyers cant buy after that amount) 
+Lower Circuit : Means after that value of stock it will not decrease (sellers cant sell after that amount)
+
+But this Upper and Lower Circuits are not applicable in the Derivatives (Option and Futuers)
+
+
+
+🤷‍♂️ Terminlogyies :
+    Bid            : Person wants to buy that stock from the market at the certain price 
+    Ask            : Person wants to sell that stock from the market at certain price 
+    Bid-Ask Spread : Bid - Ask Price 
+    Volume means how much the stocks is selled and buyed today  
+
+    Bid-Ask Spread% is greater than the volume in market is low
